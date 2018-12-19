@@ -1,4 +1,4 @@
-# student-demo
+# Student webapp with AngularJS with Firebase Realtime Database
 Example of Google Firebase Realtime Database with AngularJS
 
 ## Concept
