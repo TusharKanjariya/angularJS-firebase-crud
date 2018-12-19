@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Website</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Angular Files -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <link rel="stylesheet" href="css/angular-toastr.min.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/angular-toastr.tpls.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body ng-app="studentApp">
+
+    <div class="container-fluid grey lighten-4">
+        <div class="row">
+            <div class="col-md-8 p-2 ">
+                <h4><strong>Students Detail</strong></h4>
+            </div>
+            <div class="p-2 col-md-4 text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-muted">Home</a></li>
+                    <li class="list-inline-item"><a href="#!/add" class="text-muted">Add Students</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div ng-view>
+
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Firebase Javascript -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angularFire/2.3.0/angularfire.min.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB6ug5mRKD3M4WgnKsuO6mJD3j1fVbyVao",
+    authDomain: "students-40b55.firebaseapp.com",
+    databaseURL: "https://students-40b55.firebaseio.com",
+    projectId: "students-40b55",
+    storageBucket: "students-40b55.appspot.com",
+    messagingSenderId: "137841450803"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+</body>
+
+</html>

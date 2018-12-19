@@ -1,0 +1,16 @@
+{
+  "name": "student",
+  "version": "1.0.0",
+  "description": "Student Detail developed in AngularJS and Firebase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "student"
+  },
+  "keywords": [
+    "angularjs",
+    "firebase",
+    "studentDetail"
+  ],
+  "author": "Tushar Kanjariya",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 grey lighten-4 p-5 mt-5">
+            <h3 class="text-center">Add Student Data</h3>
+            <div class="md-form mb-0">
+                <input type="text" id="name" class="form-control" ng-model="student.name">
+                <label for="name">Name</label>
+            </div>
+            <div class="md-form mb-0">
+                <input type="text" id="dept" class="form-control" ng-model="student.dept">
+                <label for="dept">Department</label>
+            </div>
+            <div class="md-form mb-0">
+                <input type="text" id="sem" class="form-control" ng-model="student.sem">
+                <label for="sem">Semester</label>
+            </div>
+            <button class="btn btn-primary" ng-click="add()">Add Data</button>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
