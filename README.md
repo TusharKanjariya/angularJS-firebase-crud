@@ -17,3 +17,5 @@ Which Languages and Libraries are used :
 The example is for a working with **AngularJS** with **Firebase Realtime Databases**.
 The database will be publicly accessible.
 
+Like `angular.app` and `$firebaseArray`, `$firebaseObject`.
+
