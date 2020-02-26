@@ -3,7 +3,7 @@ Example of Google Firebase Realtime Database with AngularJS
 
 ## Concept
 
-> [Live Demo](http://designmart.000webhostapp.com/angularfireDemo/)
+> [Live Demo](https://tusharkanjariya.github.io/angularJS-firebase-crud/)
 
 Which Languages and Libraries are used :
 
